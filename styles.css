@@ -9,6 +9,7 @@
     --grey: #a6a6a6;
     --black: #000;
     --bgBlue: #0047cc;
+    --bgKyshiBlue: #1E347A;
     --bgLightBlue: #1290da;
     --bgPurple: #211048;
     ---bgDarkPurple: #6D129C;
@@ -171,6 +172,7 @@ article p {
 .blue,
 .purple,
 .grey,
+.kyshiBlue,
 .lightblue,
 .darkPurple,
 .white {
@@ -180,6 +182,7 @@ article p {
 }
 
 .blue,
+.kyshiBlue,
 .purple,
 .lightblue,
 .darkPurple,
@@ -189,6 +192,9 @@ article p {
 }
 
 .blue {
+    background-color: var(--bgBlue);
+}
+.kyshiBlue {
     background-color: var(--bgBlue);
 }
 .lightblue {
